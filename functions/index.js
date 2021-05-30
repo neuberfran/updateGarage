@@ -15,17 +15,10 @@ exports.updateGarage = functions.firestore
       .get()
       .then((areaSnapshot) => {
 
-        const garagestatev = areaSnapshot.data().garagestate
-
-        firestore
-        .doc("device-configs/garagem")
-        .get
-        .then((areaPercSnapshot) => {
-
-            const targetDoc = areaPercSnapshot.data().value.openPercent
+        const targetDoc = areaSnapshot.data().value.oipenPercent
 
             if (garagestatev) {
-                console.log("garagestate is true");
+                console.log("garagestate is true = targetDodc=k"+targetDoc);
       
                 if (targetDoc == 100) {
                   console.log("vou mandar 0");
@@ -37,8 +30,9 @@ exports.updateGarage = functions.firestore
                 }
 
             } else if (!garagestatev) {
-                console.log("garagestate is true");
-      
+                
+                console.log("garagestate is false = targetDodc=k"+targetDoc);
+
                 if (targetDoc == 0) {
                   console.log("vou mandar 100");
                   firestore
@@ -47,8 +41,6 @@ exports.updateGarage = functions.firestore
                     .update(mapOf("value.openPercent", to, 100));
                 }
               }
-            
-        });
    
       });
   });
