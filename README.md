@@ -1,22 +1,6 @@
 
 ```html
 firebase functions:log --project control-my-lighs
-2021-05-30T17:44:49.871982Z N updateGarage: 
-2021-05-30T17:46:00.482062Z N updateGarage: 
-2021-05-30T18:00:47.110853Z I : 
-2021-05-30T18:00:47.410547Z I : 
-2021-05-30T18:00:48.728648Z N updateGarage: 
-2021-05-30T18:01:57.973267Z N updateGarage: 
-2021-05-30T18:03:35.031670790Z D updateGarage: Function execution started
-2021-05-30T18:03:35.233Z W updateGarage: Function returned undefined, expected Promise or value
-2021-05-30T18:03:35.243400100Z D updateGarage: Function execution took 213 ms, finished with status: 'ok'
-2021-05-30T18:03:55.971832487Z D updateGarage: Function execution started
-2021-05-30T18:03:58.732Z W updateGarage: Function returned undefined, expected Promise or value
-2021-05-30T18:03:58.733860788Z D updateGarage: Function execution took 2763 ms, finished with status: 'ok'
-2021-05-30T18:04:13.929Z ? updateGarage: garagestate is true
-2021-05-30T18:04:13.930Z ? updateGarage: Unhandled rejection
-2021-05-30T18:04:14.031Z ? updateGarage: ReferenceError: targetDoc is not defined
-2021-05-30T18:04:14.031Z ? updateGarage:     at /workspace/index.js:23:11
 2021-05-30T18:04:14.031Z ? updateGarage:     at processTicksAndRejections (internal/process/task_queues.js:97:5)
 2021-05-30T18:04:15.107Z E updateGarage: Error: Process exited with code 16
     at process.<anonymous> (/layers/google.nodejs.functions-framework/functions-framework/node_modules/@google-cloud/functions-framework/build/src/invoker.js:275:22)
@@ -56,4 +40,21 @@ firebase functions:log --project control-my-lighs
 2021-05-30T18:41:52.986410Z I : 
 2021-05-30T18:41:54.241235Z N updateGarage: 
 2021-05-30T18:43:05.140969Z N updateGarage: 
+2021-05-30T19:25:19.353311Z I : 
+2021-05-30T19:25:19.700197Z I : 
+2021-05-30T19:25:20.976786Z N updateGarage: 
+2021-05-30T19:26:25.017448Z N updateGarage: 
+2021-05-30T19:28:08.685592Z I : 
+2021-05-30T19:28:08.950658Z I : 
+2021-05-30T19:28:10.193327Z N updateGarage: 
+2021-05-30T19:29:11.637770Z N updateGarage: 
+2021-05-30T19:34:04.532315Z I : 
+2021-05-30T19:34:04.876667Z I : 
+2021-05-30T19:34:06.052541Z N updateGarage: 
+2021-05-30T19:35:13.534912Z N updateGarage: 
+2021-05-30T19:35:43.595986Z I : 
+2021-05-30T19:35:43.852178Z I : 
+2021-05-30T19:35:45.180154Z N updateGarage: 
+2021-05-30T19:36:55.044093Z N updateGarage: 
+neuberfran@ubuntu2010:~/Projects/firestore3/functions$  
 ```        
