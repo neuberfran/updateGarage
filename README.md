@@ -1,4 +1,5 @@
 
+```html
 firebase functions:log --project control-my-lighs
 2021-05-30T17:44:49.871982Z N updateGarage: 
 2021-05-30T17:46:00.482062Z N updateGarage: 
@@ -55,3 +56,4 @@ firebase functions:log --project control-my-lighs
 2021-05-30T18:41:52.986410Z I : 
 2021-05-30T18:41:54.241235Z N updateGarage: 
 2021-05-30T18:43:05.140969Z N updateGarage: 
+```        
