@@ -15,7 +15,7 @@ exports.updateGarage = functions.firestore
       .get()
       .then((areaSnapshot) => {
 
-        const targetDoc = areaSnapshot.data().value.oipenPercent
+        const targetDoc = areaSnapshot.data().value.openPercent
 
             if (garagestatev) {
                 console.log("garagestate is true = targetDodc=k"+targetDoc);
